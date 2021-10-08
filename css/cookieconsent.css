@@ -1,0 +1,451 @@
+/* ======================================================================================================================================================
+#Cookie Consent
+====================================================================================================================================================== */
+
+.dt-cookie-consent
+{
+    background-color: rgba(0,0,0,.85);
+    color: rgba(255,255,255,.9);
+    opacity: 1;
+    overflow: hidden;
+    padding: 1.1em;
+    position: fixed;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    visibility: visible;
+    width: 100%;
+    z-index: 999;
+}
+
+.dt-cookie-consent .container
+{
+    float: none !important;
+    padding: 0 !important;
+}
+
+.dt-cookie-consent a.dt_cookie_infolink,
+.dt-cookie-consent p,
+.dt-cookie-consent .dt-sc-button
+{
+    display: inline-block;
+    letter-spacing: .05em;
+    vertical-align: middle;
+}
+
+.dt-cookie-consent a.dt_cookie_infolink
+{
+    color: inherit;
+}
+
+.dt-cookie-consent p
+{
+    margin: 0;
+}
+
+.dt-cookie-consent a.dt_cookie_infolink,
+.dt-cookie-consent p
+{
+    margin-right: .5em;
+}
+
+.dt-cookie-consent .dt-sc-button
+{
+    background-color: #fff;
+    border: 3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    margin: 0 0 0 6px;
+    min-width: 80px;
+    padding: 1.1em;
+    text-decoration: none;
+    transition: all .3s ease-in;
+    white-space: nowrap;
+}
+
+.dt-cookiemessage-bottom
+{
+    bottom: 0;
+    left: 0;
+}
+
+.dt-cookiemessage-top
+{
+    left: 0;
+    top: 0;
+}
+
+.dt-cookiemessage-top-left,
+.dt-cookiemessage-bottom-left,
+.dt-cookiemessage-top-right,
+.dt-cookiemessage-bottom-right
+{
+    width: 25%;
+}
+
+.dt-cookiemessage-top-left a.dt_cookie_infolink,
+.dt-cookiemessage-bottom-left a.dt_cookie_infolink,
+.dt-cookiemessage-top-right a.dt_cookie_infolink,
+.dt-cookiemessage-bottom-right a.dt_cookie_infolink,
+.dt-cookiemessage-top-left p,
+.dt-cookiemessage-bottom-left p,
+.dt-cookiemessage-top-right p,
+.dt-cookiemessage-bottom-right p
+{
+    display: block;
+	margin-right: 0;
+	margin-bottom: 5px;
+}
+
+.dt-cookiemessage-top-left .dt-cookie-consent-button,
+.dt-cookiemessage-bottom-left .dt-cookie-consent-button,
+.dt-cookiemessage-top-right .dt-cookie-consent-button,
+.dt-cookiemessage-bottom-right .dt-cookie-consent-button
+{
+    margin: .5em;
+}
+
+.dt-cookiemessage-bottom-right
+{
+    bottom: 30px;
+    right: 30px;
+}
+
+.dt-cookiemessage-top-right
+{
+    right: 30px;
+    top: 30px;
+}
+
+.dt-cookiemessage-bottom-left
+{
+    bottom: 30px;
+    left: 30px;
+}
+
+.dt-cookiemessage-top-left
+{
+    left: 30px;
+    top: 30px;
+}
+
+.dt-cookie-consent.cookiebar-hidden
+{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dt-cookiemessage-top.cookiebar-hidden
+{
+    transform: translateY(-110%);
+}
+
+.dt-cookiemessage-bottom.cookiebar-hidden
+{
+    transform: translateY(110%);
+}
+
+.dt-cookiemessage-bottom-left.cookiebar-hidden,
+.dt-cookiemessage-top-left.cookiebar-hidden
+{
+    transform: translateX(-110%);
+}
+
+.dt-cookiemessage-bottom-right.cookiebar-hidden,
+.dt-cookiemessage-top-right.cookiebar-hidden
+{
+    transform: translateX(110%);
+}
+
+.dt-cookie-consent.dt-cookiemessage-bottom.cookiebar-hidden
+{
+    bottom: -50px;
+}
+
+body.admin-bar .dt-cookiemessage-top,
+body.admin-bar .dt-cookiemessage-top-right,
+body.admin-bar .dt-cookiemessage-top-left
+{
+    margin-top: 32px;
+}
+
+.dt-inline-modal
+{
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 250px;
+    padding: 20px;
+    position: relative;
+}
+
+.mfp-close-btn-in .dt-inline-modal > h4,
+.mfp-close-btn-in .dt-inline-modal .mfp-close
+{
+    color: #252525;
+}
+
+.mfp-close-btn-in .dt-inline-modal .mfp-close
+{
+    font-size: 30px;
+    opacity: 1;
+    transform: scale(1);
+    top: 16px;
+    right: 16px;
+}
+
+.dt-inline-modal .dt-sc-tabs-vertical-container
+{
+    float: none;
+}
+
+.dt-popup .dt-inline-modal
+{
+    display: block;
+    opacity: 1;
+}
+
+.dt-popup.mfp-removing .dt-inline-modal
+{
+    opacity: 0;
+}
+
+.dt-popup .dt-inline-modal .mfp-close
+{
+    right: 18px;
+    top: 18px;
+}
+
+.dt-popup .dt-inline-modal .mfp-close:hover
+{
+    border: 2px solid #e1e0e0;
+}
+
+.dt-popup .dt-inline-modal .tabcontainer
+{
+    min-height: 320px;
+}
+
+.dt-popup .dt-inline-modal .tab
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 16px;
+}
+
+.dt-popup .dt-inline-modal > .dt-special-heading
+{
+    padding-right: 40px;
+}
+
+
+.dt-cookie-consent
+{
+    background-color: rgba(0,0,0,.95);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dt-cookie-consent.dt-cookiemessage-top-left, 
+.dt-cookie-consent.dt-cookiemessage-bottom-left, 
+.dt-cookie-consent.dt-cookiemessage-top-right, 
+.dt-cookie-consent.dt-cookiemessage-bottom-right {
+    padding-left: 1.1em; 
+    padding-right: 1.1em;
+}
+
+/*Subscribe Form*/
+.dt-privacy-wrapper
+{
+    clear: both;
+    padding-top: 10px;
+}
+.dt-sc-newsletter-section.type5 .dt-privacy-wrapper
+{
+    bottom: 20px;
+    position: relative;
+}
+.dt-privacy-wrapper input, #commentform .comment-form-cookies-consent input
+{
+    margin-right: 10px;
+    margin-top: -2px;
+}
+#comment-form-dt-privatepolicy
+{
+	margin-right: 7px;
+	margin-top: -3px;
+}
+
+
+@media only screen and (max-width:991px)
+{
+    .dt-cookie-consent .dt_cookie_text
+    {
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .dt-cookie-consent .dt_cookie_text ~ .dt-cookie-consent-button
+    {
+        margin-left: 0;
+        margin-top: 6px;
+    }
+    .dt-cookie-consent .dt_cookie_text ~ .dt-cookie-consent-button ~ .dt-cookie-consent-button
+    {
+        margin-left: 6px;
+    }
+
+    .dt-inline-modal > h4 {
+        font-size: 20px !important;
+        padding-right: 60px !important;
+    }
+
+    .mfp-close-btn-in .dt-inline-modal .mfp-close { 
+        top: 8px; 
+    }
+}
+
+.dt-inline-modal ul.dt-sc-tabs-vertical > li > a
+{
+    font-weight: bold;
+    line-height: normal;
+    padding: 10px 15px;
+}
+.dt-inline-modal .dt-sc-tabs-vertical-content
+{
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    float: left;
+    margin: 0;
+    min-height: 210px;
+    padding: 0px 30px 0px;
+    position: relative;
+    width: 68%;
+}
+.dt-inline-modal .dt-toggle-switch label
+{
+    color: currentColor;
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+.dt-inline-modal .dt-toggle-switch label input[type="checkbox"]
+{
+    margin-right: 8px;
+    margin-top: -2px;
+}
+
+.dt-inline-modal .dt-sc-tabs-vertical-container
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.dt-inline-modal ul.dt-sc-tabs-vertical
+{
+    float: left;
+    list-style: none;
+    margin: 0 -1px 1px 0;
+    padding: 0;
+    padding: 0;
+    width: 32%;
+}
+.dt-inline-modal ul.dt-sc-tabs-vertical > li
+{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.dt-inline-modal ul.dt-sc-tabs-vertical > li > a
+{
+    border-right: 1px solid transparent;
+    border-right-color: transparent;
+    color: rgba(0, 0, 0, .4);
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    padding: 10px 20px 15px 0;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.mfp-close-btn-in .dt-inline-modal ul.dt-sc-tabs-vertical > li > a { 
+	color: #252525;
+	text-transform: capitalize;
+}
+
+.dt-inline-modal ul.dt-sc-tabs-vertical > li > a.current
+{
+    position: relative;
+    z-index: 1;
+}
+
+.mfp-close-btn-in .mfp-close
+{
+    background-color: transparent !important;
+    font-size: 28px;
+    position: absolute !important;
+}
+
+.dt-cookiemessage-top-left .container,
+.dt-cookiemessage-top-right .container,
+.dt-cookiemessage-bottom-right .container,
+.dt-cookiemessage-bottom-left .container
+{
+    width: auto;
+}
+
+
+@media only screen and (max-width:479px)
+{
+    .dt-inline-modal ul.dt-sc-tabs-vertical,
+    .dt-inline-modal .dt-sc-tabs-vertical-content
+    {
+        width: 100%;
+    }
+    .dt-inline-modal ul.dt-sc-tabs-vertical li a
+    {
+        border-color: rgba(0,0,0,.1) !important;
+        border-style: solid;
+        border-width: 0 0 1px;
+        padding-left: 0;
+    }
+    .dt-inline-modal ul.dt-sc-tabs-vertical li a:before
+    {
+        border-color: currentColor;
+        border-style: solid;
+        border-width: 0 0 1px;
+        bottom: -1px;
+        content: "";
+        height: 1px;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        transition: all .3s linear 0s;
+        width: 45px;
+    }
+    .dt-inline-modal ul.dt-sc-tabs-vertical li.current a:before
+    {
+        opacity: 1;
+    }
+    .dt-inline-modal .dt-sc-tabs-vertical-content
+    {
+        border-width: 0;
+        padding: 15px 5px;
+    }
+    .dt-inline-modal > h4
+    {
+        font-size: 14px;
+    }
+}

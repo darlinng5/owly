@@ -1,0 +1,13 @@
+/* Revolution slider UI fix */
+#viewWrapper .pickerisopen .wp-picker-clear { margin-top:0; }
+#viewWrapper .wp-picker-input-wrap { top:255px; }
+
+/* New */
+.menu-item-edit-active .menu-item-settings { display: inline-block !important; }
+
+.cs-field-group .ui-accordion .cs-group:first-child .cs-remove { display: none; }
+
+.cs-groups.ui-accordion .cs-group-title.ui-accordion-header .ui-accordion-header-icon { background: none; line-height: 16px; }
+.cs-groups.ui-accordion .cs-group-title.ui-accordion-header .ui-accordion-header-icon:before { display: block; margin-left: -2px; }
+
+.cs-field-gallery ul li span { display: block; text-align: center; padding: 3px 0 0; }
